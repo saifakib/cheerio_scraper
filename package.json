@@ -1,0 +1,24 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "Build Web Scraper with node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "node.js"
+  ],
+  "author": "Saif Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
